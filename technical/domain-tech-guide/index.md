@@ -17,7 +17,7 @@ title: An Introduction to NIEM Domain Modeling
 - If ConOps is resurrected, then agree, must balance content between DTG and ConOps. 
 - Not sure why DTG should be based on implementation of the NIEM IEPD LC.
 - However, domain modeling should be informed by IEPD LC; IEPD extensions should feed updates to core and domain models. 
-- See the [Intro page](./intro.html) 
+- See the [Intro page](./intro) 
 ----
 
 ## 1. Introduction
