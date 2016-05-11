@@ -1,11 +1,11 @@
 ---
-title: NIEM Domain Technical Guide (DTG)
+title: An Introduction to NIEM Domain Modeling
 ---
 
 #### Feedback:
 - x-reference some sections with [NIEM ConOps][1] to avoid duplication.
 - move some sections to [NIEM ConOps][1] as a revision to that document. 
-- Main thrust of NIEM Domain Technical Guide should be based on the implementation of the NIEM IEPD Life Cycle (LC) and conformance to the NDR and MPD specifications.
+- Main thrust should be based on the implementation of the NIEM IEPD Life Cycle (LC) and conformance to the NDR and MPD specifications.
 
 [1]: https://reference.niem.gov/niem/guidance/concept-of-operations/ 
 
@@ -16,36 +16,58 @@ title: NIEM Domain Technical Guide (DTG)
   - Easier to maintain pages than document.
 - If ConOps is resurrected, then agree, must balance content between DTG and ConOps. 
 - Not sure why DTG should be based on implementation of the NIEM IEPD LC.
-- However, domain modeling should be informed by IEPD LC; IEPD extensions should feed updates to core and domain models.  
-
+- However, domain modeling should be informed by IEPD LC; IEPD extensions should feed updates to core and domain models. 
+- See the [Intro page](./intro.html) 
 ----
 
 ## 1. Introduction
 
 ### 1.1 Background
 
+- Purpose of NIEM.  Why and why not use NIEM?  Common myths.
+  - NIEM is too big for us to use. (you can use only what you need in NIEM, i.e., subset your requirements)
+  - NIEM is too complex to use. 
+  - NIEM does not contain the data we need. (establish and manage your own domain; or extend NIEM)
+  - NIEM cannot use other XML standards. (false)
+  - NIEM cannot be used by other XML standards. (false)
+
 - What is a NIEM *Domain*?
   - Community of Interest (CoI), organization, or Line of Business (LoB)?
+
 - Why domains are important in NIEM.
   - Almost every NIEM participant is a member of at least one domain. 
-  - NIEM scalability depends on distributed governance.
-  - A domain at-large does not have to join NIEM or participate in its governance to use NIEM.
-- Purpose of a Domain Technical Guide (DTG)
+  - NIEM was designed with a core and domains that correspond to central (NBAC) and distributed (domain) governance to facilitate scaling. 
+  - A domain at-large does not have to join NIEM or participate in its governance to use NIEM and share information with member domains.
+
+- Purpose of this domain modeling guide
   - Primarily for the benefit of new or emerging domains.
-  - Also a handy baseline reference for all domains and governance. 
+  - Also a baseline reference for all domains and governance. 
+
+- What topics or documents to be familiar with
+  - XML and W3C XML Schema
+  - NIEM High Level Version Architecture
+  - NIEM Conformance
+  - NIEM NDR
 
 ### 1.2 Scope
 
-- Focus is on technical aspects of domain model management.
+- Focus on technical aspects of domain model management.
+- Where do you begin?  How to start a domain model
+- Naming and definitions
+- NIEM code lists
 - Technical responsibilities of a domain.
-- Building and maintaining domain model content.
+  - Build your domain content for other domains to reuse.
+  - Make your data component names and definitions as clear as possible to other domains. 
+  - Participate in harmonization and issue resolution when your domain is involved.
+  - Consider the impacts changes to your domain will have on other domains (or Core).  Notify them! 
+- Maintaining a domain model (what to model, when to change it, etc.)
+- What impacts my domain model?  What does my domain model impact?
 - Participating in a release cycle, domain update, and other NIEM technical processes.
 - Technical assistance, tools, templates, best practices, references, etc.
-- HLVA refresh (summary/abridged).
 
 ### 1.3 Audience
 
-- Technical personnel who support NIEM domains, particularly new domains. 
+- Technical personnel who support NIEM domains, and particularly new domains. 
 - NIEM working level governance; includes NBAC, NTAC, domain technical POCs, PMO staff, and lead developer. 
 
 
