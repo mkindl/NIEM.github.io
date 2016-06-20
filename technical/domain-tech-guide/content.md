@@ -72,6 +72,40 @@ or [Change Request](https://reference.niem.gov/niem/resource/change-request/) (X
 - Can save you extra work and time if you make systemic errors. 
 - Get preliminary inputs in early for review, feedback, and assistance.
 
+
+
+### NIEM Data Component Names and Definitions
+
+A scalable vocabulary that will be used by many different communities to exchange information must be understandable to all parties involved.  To facilitate consistency and understanding NIEM has established rules for naming and defining its data components.  These rules apply to all types, elements, and attributes.  They were derived from [ISO/IEC Standard 11179](http://metadata-standards.org/11179/), Information Technology -- Metadata Registries (MDR).  This standard has been around since the 1990's and continues to be updated.  For this reason, please do not expect that NIEM rules for names and definitions are exactly synchronous with Standard 11179.  Yet, for the most part, the NIEM Naming and Design Rules (NDR) still generally follow 11179 rules and guidance for designing metadata [definitions](https://reference.niem.gov/niem/specification/naming-and-design-rules/3.0/niem-ndr-3.0.html#section_7.4) and [names](https://reference.niem.gov/niem/specification/naming-and-design-rules/3.0/niem-ndr-3.0.html#section_7.5).
+
+
+#### How to Draft Data Component Definitions
+
+Each NIEM element, attribute, and type must be clearly defined before it will be accepted for a NIEM domain update or release.  [ISO/IEC Standard 11179] (http://metadata-standards.org/11179/) Part 4 is the guidance upon which NIEM definitions are formulated.  The salient points of that guidance and the NIEM NDR rules are repeated here: 
+
+- Each data component definition must be unique from all others and distinguishable in meaning.  No two definitions can be identical in wording or so close in meaning that they could refer to the same data component.
+- Try to keep definitions simple and straight forward.  This is not always possible, at least make them understandable to others who are not a part of your community of interest (i.e., domain). 
+- Element definitions almost always begin with an indefinite article (i.e., "a" or "an"), never a definite article (i.e., "the").
+- Since it is often the case that a type and an element of that type can be defined with identical or similar words (for example, Person and PersonType), it is a NIEM best practice to begin a type definition with the phrase "A data type for".  This ensures that the definition for the element and its associated type are easily distinguishable.
+- Best practices for the opening phrase of the definitions of other kinds of NIEM data components are: 
+	- abstract elements:      "A data concept for".
+	- association elements:   "An association for".
+	- augmentation elements:  "An augmentation for".
+	- role elements:          "A role of".
+- Within NIEM definitions, avoid the use of the word "type" unless it refers to the data sense (i.e. data type).  Instead, as appropriate use terms such as kind, category, class, nature, genre, or form to refer to classifications. 
+- If you have trouble designing a good definition for a data component, refer to the current NIEM release for examples. 
+- Avoid using the terms in the name of a data component for its definition.  That said, a good data component name may be self-defining.  It is not an error if you must use one or even two terms from the name to define the component because there are no good synonyms. 
+- Aside from the typing implications of opening phrases mentioned above, do not include data typing information in a data component definition.  For example, "SocialSecurityID:  A 9-digit number with dashes that identifies a person in the United States".  The fact this element is a "9-digit number with dashes" should not be included in its definition.  This is what the XML pattern attribute is for. 
+
+
+#### How to Design Data Component Names
+
+- no dashes in identifiers unless ...
+- term "number" (SSN is SSID).
+- category not type (the only exception in NIEM is BloodType, because it is an extremely common concept).
+- no double terms (i.e., consecutive identical terms such TypeType or NameName) unless this has very specific meaning.
+
+
 ----
 
 ## Return to:  [Table of Contents](./index)
