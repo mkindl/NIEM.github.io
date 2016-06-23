@@ -104,8 +104,7 @@ Excel menu <code>Find</code> and <code>Search</code> functions also take wildcar
 #### Offline
 
 Because NIEM is XML-based, most methods of searching NIEM are text oriented. 
-Almost any good XML tool can be useful.  
-Common XML editors that can do this are [Altova XMLSpy](http://www.altova.com/xmlspy.html) and [oXygen](https://www.oxygenxml.com/). 
+Almost any good XML tool can be useful.  Common XML editors that can do this are [Altova XMLSpy](http://www.altova.com/xmlspy.html) and [oXygen](https://www.oxygenxml.com/). 
 
 Other methods of searching NIEM use full text search capabilities that can quickly scan through large file sets.  NIEM schemas contain an entire textual data dictionary.  Multiple NIEM releases can be searched simultaneously using some version of grep (originally a Unix utility and available natively on an Apple MacIntosh; there are also version that run under Microsoft Windows).  Grep is simple, fast, and facilitates user customization.  By downloading all the NIEM release packages and placing their XML schemas into a single directory, grep can be customized to find and extract any text that can be described by a grep expression.
 
