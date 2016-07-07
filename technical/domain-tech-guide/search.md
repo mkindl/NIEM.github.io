@@ -9,7 +9,7 @@ Although this section does not address NIEM modeling specifically, given the lar
 
 ### Schema Subset Generation Tool (SSGT)
 
-The (Schema Subset Generation Tool)[https://tools.niem.gov/niemtools/ssgt/index.iepd] (SSGT) is one way to search for NIEM data components.  This tool was designed to build and generate NIEM schema subsets.  However, SSGT also contains a convenient search engine that can be used alone.    
+The [Schema Subset Generation Tool](https://tools.niem.gov/niemtools/ssgt/index.iepd) (SSGT) is one way to search for NIEM data components.  This tool was designed to build and generate NIEM schema subsets.  However, SSGT also contains a convenient search engine that can be used alone.    
 
 
 #### Basic Search
