@@ -102,7 +102,7 @@ Each NIEM element, attribute, and type must be clearly defined before it will be
 
 - no dashes in identifiers unless ...
 - term "number" (SSN is SSID).
-- category not type (the only exception in NIEM is BloodType, because it is an extremely common concept).
+- category not type (the only exception in NIEM is BloodType, because it is an extremely common concept in all domains, not just one).
 - no double terms (i.e., consecutive identical terms such TypeType or NameName) unless this has very specific meaning.
 
 

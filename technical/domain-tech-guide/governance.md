@@ -5,7 +5,7 @@ title:  Appendix A - Governance
 ## Meetings, roles/responsibilities, communications, accounts for participation
 
 - Email lists for governance committees (who, what, purpose, how to enroll)
-  - [NIEM Techncial Architecture Committee](mailto:ntac@lists.gatech.edu (NTAC); [request to be added](mailto:ntac-request@lists.gatech.edu) (requires PMO approval).
+  - [NIEM Technical Architecture Committee](mailto:ntac@lists.gatech.edu (NTAC); [request to be added](mailto:ntac-request@lists.gatech.edu) (requires PMO approval).
   - [NIEM Business Architecture Committee](mailto:nbac@lists.gatech.edu) (NBAC); [request to be added](mailto:nbac-request@lists.gatech.edu) (requires PMO approval).
 - Tool accounts (who, what, purpose, how to obtain account) 
   - [NIEM Configuration Control Tool (NCCT)](https://niem.gtri.gatech.edu/ncct/); for PMO, governance, and domain staffs; [request account](mailto:pgmw-system@gtri.gatech.edu)

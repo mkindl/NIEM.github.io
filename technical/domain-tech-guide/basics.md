@@ -49,7 +49,7 @@ A "Reader's Digest" (abridged) version of
 
 ### 5.5 Conformance and quality assurance
 
-- General and specific confomance
+- General and specific conformance
 - Verification (who, what, how, when, etc.)
 
 ----
