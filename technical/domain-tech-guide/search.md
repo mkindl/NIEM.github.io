@@ -14,11 +14,11 @@ The (Schema Subset Generation Tool)[https://tools.niem.gov/niemtools/ssgt/index.
 
 #### Basic Search
 
-SSGT provides a full text search capability for a NIEM release.  You can enter a search string into the criteria box and view a list of all NIEM data components that contain a lexical match to that string.  The default is to search all data component text records in a single release, including names, definitions, and other metadata text fields.  Namespaces are not part of the standard search.  This is because namespace prefixes are extremely prevalent throughout the model and woutend to clutter most search results.  As will be described later, the user can configure SSGT to search in particular ways. 
+SSGT provides a full text search capability for a NIEM release.  You can enter a search string into the criteria box and view a list of all NIEM data components that contain a lexical match to that string.  The default is to search all data component text records in a single release, including names, definitions, and other metadata text fields.  Namespaces are not part of the standard search.  This is because namespace prefixes are extremely prevalent throughout the model and would tend to clutter most search results.  As will be described later, the user can configure SSGT to search in particular ways. 
 
 Search is case independent.  A search for <code>sonty</code> will return the data component <code>PersonType</code>.
 
-SSGT can only search a single release (Later, we discuss a technique for searching multiple releases at once).  The default is to search the most recent (current) operational release.  If you need to search a previous NIEM releasese you must select it from the "options" menu. 
+SSGT can only search a single release (Later, we discuss a technique for searching multiple releases at once).  The default is to search the most recent (current) operational release.  If you need to search a previous NIEM release you must select it from the "options" menu. 
 
 SSGT always requires that you declare the class of the data component you are looking for, and only that class will be in the scope of the search.  This means you must declare one of the following in the dropdown box: 
 
@@ -34,7 +34,7 @@ Search results are displayed in a list of NIEM data component qualified names, i
 Depending on the outcome of a simple (default) search, a resulting list will have as many as three parts in this order:
 
 1. Exact match on name:  All data names for which the search criteria exactly matched that entire naem (excluding its namespace prefix). 
-2. Partical match on name:  All data names for which the search criteria matched a substring within that name (excluding its namespace prefix).
+2. Partial match on name:  All data names for which the search criteria matched a substring within that name (excluding its namespace prefix).
 3. Match on other metadata:  All data names for which the search criteria matched a substring within its associated data definition or other metadata (including namespace prefixes that may occur within the metadata). 
 
 Each part of the search result (if it exists) is sorted alphabetically by Qname, which includes the namespace prefix so that component names are conveniently grouped by namespace. 
@@ -101,7 +101,10 @@ The model spreadsheet is organized into the following tabs:
 
 Each tab contains a list that also includes various metadata about the data components listed.  Each type is hyperlinked to the location of its definition.  The model spreadsheet is designed to explore types and their associated properties (sub-elements). 
 
-Excel menu <code>Find</code> and <code>Search</code> functions also take wildcards.  Asterisk and question mark characters are used for multi- and single-character wildcards respectively.  To find asterisks and question marks in the text, you must escape these characters with a tilde (<code>~</code>).  So, <code>~</code><code>\*</code> and <code>~?</code> will find asterisks and question marks.  To excape the tilde character itself, enter <code>~~</code>.
+Excel menu <code>Find</code> and <code>Search</code> functions also take wildcards.  Asterisk and question mark characters are used for multi- and single-character wildcards respectively.  To find asterisks and question marks in the text, you must escape these characters with a tilde (<code>~</code>).  So, <code>~</code><code>\*</code> and <code>~?</code> will find asterisks and question marks.  To escape the tilde character itself, enter <code>~~</code>.
+
+Excel offers other kinds of wildcards and features that provide search capability similar to regular expressions.  PC users might look at <https://support.office.com/en-us/article/Find-and-replace-text-by-using-regular-expressions-Advanced-eeaa03b0-e9f3-4921-b1e8-85b0ad1c427f#__toc286834987>.  It would be nice in both PC and Mac Excel had identical user interfaces, but that is not the case.  So, for Mac users should check out <http://searchengineland.com/advanced-filters-excels-amazing alternative-to-regex-143680> (and beware, shortcuts for Mac Excel 2011 don't always seem to work as expected).
+
 
 ### Other methods to search NIEM content
 
