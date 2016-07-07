@@ -45,8 +45,9 @@ Each data name is hyperlinked to its associated metadata and relationships.  For
  
 Note for MS Internet Explorer 11 users:  This browser must be reconfigured to "compatibility mode" (not its default) for SSGT to work correctly:
 
-1. Go to https://tools.niem.gov, and open Compatibility View (Tools / Compatibility View Settings).
-2. Add tools.niem.gov or niem.gov to Compatibility View, and SSGT Search will work normally.
+1. In MS Internet Explorer 11, open Compatibility View (Tools / Compatibility View Settings).
+2. Add tools.niem.gov and/or niem.gov to Compatibility View.
+3. Go to <https://tools.niem.gov/> and SSGT Search will work normally.
 
 
 #### Advanced Search
@@ -65,9 +66,11 @@ You can also constrain search to particular metadata fields that you select.  Th
 
 You can limit a search to one or more domains by checking/unchecking the appropriate boxes.  If you want to search content outside of all domains (for example, NIEM Core and all code lists), then just check "other".  If you uncheck all boxes the tool will go back to searching the entire model (same as if all boxes are checked).
 
+
 ##### Multiple search criteria
 
 You can enter multiple search terms separated by spaces in the search criteria box.  In this case, SSGT search will return data component records that contain ALL those terms in any order.  
+
 
 ##### Wildcard search
 
