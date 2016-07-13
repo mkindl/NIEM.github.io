@@ -160,5 +160,5 @@ Nonetheless, Google has a number of powerful operators that can be applied to pe
 
 ----
 
-## Return to:  [Table of Contents](./index)
+## Return to:  [Table of Contents](./index.html)
 
