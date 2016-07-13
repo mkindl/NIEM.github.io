@@ -11,7 +11,8 @@ architecture includes the technical specifications, the NIEM core structure, and
 processes such as the NIEM release process and domain updates.
 
 * [Differences between NIEM reference and extension schema documents](ref-vs-ext)
+* [IEPD Change Control and Version Management: FAQ](iepd-versions)
+* [Introduction to Domain Modeling](domain-modeling-guide)
+* [NIEM Core Supplements](core-supplement)
 * [NIEM and Code Lists](code-lists)
-* [Using a NIEM Core Supplement](core-supplement)
-* [NIEM IEPD Change Control and Version Management: Frequently Asked Questions](iepd-versions)
 * [NIEM and JSON](json)
