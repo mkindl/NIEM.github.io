@@ -29,5 +29,5 @@ Examples include:
 
 ----
 
-## Return to:  [Table of Contents](./index)
+## Return to:  [Table of Contents](./index.html)
 

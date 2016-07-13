@@ -72,5 +72,5 @@ ISO/IEC Standard 11179 Information Technology -- Metadata Registries (MDR) | <ht
 
 ----
 
-## Return to:  [Table of Contents](./index)
+## Return to:  [Table of Contents](./index.html)
 

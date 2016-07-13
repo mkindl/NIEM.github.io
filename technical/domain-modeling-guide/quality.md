@@ -52,5 +52,5 @@ For each potential NIEM Core data component (type/property):
 
 ----
 
-## Return to:  [Table of Contents](./index)
+## Return to:  [Table of Contents](./index.html)
 

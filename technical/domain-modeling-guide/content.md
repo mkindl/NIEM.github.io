@@ -108,5 +108,5 @@ Each NIEM element, attribute, and type must be clearly defined before it will be
 
 ----
 
-## Return to:  [Table of Contents](./index)
+## Return to:  [Table of Contents](./index.html)
 
