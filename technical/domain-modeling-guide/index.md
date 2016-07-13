@@ -10,7 +10,7 @@ title: Introduction to NIEM Domain Modeling
 
 #### [Design and build initial NIEM domain content](./content.html) - how to name, define, and structure data components
 
-#### [Search for NIEM data components](./search/search.html) - how to search
+#### [Search for NIEM data components](./search.html) - how to search
 
 #### [Map to NIEM data components](./map.html) - how to map to a database, model, etc.
 
