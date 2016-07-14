@@ -1,5 +1,5 @@
 ---
-title: Introduction to NIEM Domain Modeling
+title: Introduction to Domain Modeling
 ---
 
 #### [Prologue](./prologue.html) - background, purpose, scope, audience
