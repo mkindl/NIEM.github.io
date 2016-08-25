@@ -8,15 +8,15 @@ title: Introduction to Domain Modeling
 
 #### [NIEM technical basics](./basics.html) - technical fundamentals of NIEM
 
-#### [Design and build initial NIEM domain content](./content.html) - how to name, define, and structure data components
+#### [Design and build NIEM domain content](./content.html) - how to name, define, and structure data components
 
 #### [Search for NIEM data components](./search.html) - how to search
 
-#### [Map to NIEM data components](./map.html) - how to map to a database, model, etc.
+#### [Map to NIEM data components](./map.html) - how to map a database, model, etc. to NIEM
 
 #### [Evaluate data component quality](./quality.html) - considerations in identifying, designing, defining, and structuring data components 
 
-#### [Appendix A. Governance](./governance.html) - meetings, roles/responsibilities, communications, accounts for participation
+#### [Appendix A. Governance](./governance.html) - meetings, roles. responsibilities, communications, online accounts for participation
 
 #### [Appendix B. NIEM resources](./resources.html) - URLs to technical resources
 

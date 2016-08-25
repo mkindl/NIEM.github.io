@@ -135,27 +135,36 @@ Each release is documented in HTML pages rooted at these links:
 - [NIEM 2.0 Namespaces Documentation](https://release.niem.gov/niem/NIEM-2.0-namespaces)
 - [NIEM 1.0 Namespaces Documentation](https://release.niem.gov/niem/NIEM-1.0-namespaces)
 
-In both the release schemas and HTML documentation pages, it is possible to run a Google site search on data component names and definitions in the release schemas (XSD) or the namespace documentation pages (XHTML). 
+You can browse these pages that contain the contents of each NIEM release organized by namespace. 
+The data components in each namespace are listed alphabetically by name, and each name is linked to a page that displays its definition and other metadata.
+Each namespace page also contains a direct link to its associated schema document.
+
+You can also search both the release schemas and HTML documentation pages with Google.
+To do this, run a Google *site search* on data component names and definitions in the release schemas (XSD) or the namespace documentation pages (XHTML). 
 
 For example, in your browser address field, enter:
 
 	site:release.niem.gov/niem/ PersonType
 
-Google search results will contain any Web page within the release.niem.gov/niem/ directory that contains a match to <code>PersonType</code>.
+Google search results will contain links to any Web page within the release.niem.gov/niem/ directory that contains a match to <code>PersonType</code>.
 
 You may enter multiple search terms.  For example, enter:
 
 	site:release.niem.gov/niem/ PersonType location
 
-Search results will return links to pages that contain both <code>PersonType</code> and <code>location</code>.
+Search results will return links to pages that contain both <code>PersonType</code> and <code>location</code> in any order.
+Character case is ignored.
 
-Note that as an Internet search engine, Google generally only indexes full words (tokens surrounded by space or delimiters).  Google also uses "stemming" (recommend you Google that) and other heuristics to find pages with words related to search terms.  So, while SSGT can find substrings at the lexical level in words that match search terms (such as <code>sonty</code> in the earlier example), Google finds partial matches to sets of words in textual paragraphs, sentences, and phrases.  For example, if you enter
+Note that as an Internet search engine, Google generally only indexes full words (tokens surrounded by space or delimiters).
+Google also uses "stemming" (recommend you Google that) and other heuristics to find pages with words related to search terms.
+So, while SSGT can NOT find substrings within words (i.e., at the lexical level) that match search terms (such as <code>sonty</code> in the earlier example), Google can find partial matches to sets of words in textual paragraphs, sentences, and phrases.
+For example, if you enter:
 
 	site:release.niem.gov/niem/ Pers
 
-Google search only returns pages that contain a <code>pers</code> string bound by spaces (i.e., a word), it does not return pages that contain <code>Person</code> or <code>PersonType</code>.
+Google search returns pages that contain the string <code>pers</code> bound by spaces or other delimiters/separators (i.e., <code>pers</code> as a word), but it does not return pages that contain <code>Person</code> or <code>PersonType</code> because it only indexes words (which are bound by delimiter or separator characters; such as spaces, quotes, and other special characters).
 
-Nonetheless, Google has a number of powerful operators that can be applied to perform advanced site searches on NIEM schemas and documentation pages.  See
+Despite this limitation, Google has a number of powerful operators that can be applied to perform advanced site searches on NIEM schemas and documentation pages.  See
 [Google Advanced Search Operators](http://www.googleguide.com/advanced_operators_reference.html).
 
 ----

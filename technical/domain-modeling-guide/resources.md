@@ -69,8 +69,10 @@ Schemas that define a _Wantlist_ &nbsp;| <https://reference.niem.gov/niem/resour
 Code list metadata master              | <https://release.niem.gov/> | now in each release package 3.0+
 IEPD Clearinghouse                     | <http://iepd.custhelp.com/> | mostly older IEPDs
 ISO/IEC Standard 11179 Information Technology -- Metadata Registries (MDR) | <http://metadata-standards.org/11179/> | guidance for names and definitions
+Domain Performance Scorecard           | <http://example.com/>       | [ ENTER URL WHEN POSTED ]
 
 ----
 
 ## Return to:  [Table of Contents](./index.html)
+:w
 
