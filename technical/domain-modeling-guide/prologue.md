@@ -71,5 +71,7 @@ This document is intended for use by technical personnel who support NIEM domain
 
 ----
 
-## Return to:  [Table of Contents](./index.html)
+### <&mdash;&mdash; Return to:  [Table of Contents](./index.html)
+
+----
 

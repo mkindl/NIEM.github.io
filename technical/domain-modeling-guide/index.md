@@ -2,21 +2,16 @@
 title: Introduction to Domain Modeling
 ---
 
-#### [Prologue](./prologue.html) - background, purpose, scope, audience
+## Table of Contents
 
-#### [NIEM terminology](./terms.html) - definitions of common terms used in this guide
-
-#### [NIEM technical basics](./basics.html) - technical fundamentals of NIEM
-
-#### [Design and build NIEM domain content](./content.html) - how to name, define, and structure data components
-
-#### [Search for NIEM data components](./search.html) - how to search
-
-#### [Map to NIEM data components](./map.html) - how to map a database, model, etc. to NIEM
-
-#### [Evaluate data component quality](./quality.html) - considerations in identifying, designing, defining, and structuring data components 
-
-#### [Appendix A. Governance](./governance.html) - meetings, roles. responsibilities, communications, online accounts for participation
-
-#### [Appendix B. NIEM resources](./resources.html) - URLs to technical resources
+|---|---|
+| [__Prologue__](./prologue.html) | &mdash; background, purpose, scope, audience |
+| [__NIEM technical basics__](./basics.html) | &mdash; technical fundamentals of NIEM |
+| [__Design / build NIEM domain content__](./content.html) &nbsp;&nbsp; | &mdash; how to name, define, and structure data components |
+| [__Search for NIEM data components__](./search.html) | &mdash; how to search data components |
+| [__Map to NIEM data components__](./map.html) | &mdash; how to map a database, model, etc. to NIEM |
+| [__Evaluate data component quality__](./quality.html) | &mdash; identifying, designing, defining, and structuring data components |
+| [__Appendix A. Governance__](./governance.html) | &mdash; meetings, roles, communications, online accounts for participation |
+| [__Appendix B. NIEM resources__](./resources.html) | &mdash; URLs to technical resources |
+| [__Appendix C. NIEM Glossary__](./glossary.html) | &mdash; definitions of common terminology used with NIEM |
 

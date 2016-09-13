@@ -169,5 +169,6 @@ Despite this limitation, Google has a number of powerful operators that can be a
 
 ----
 
-## Return to:  [Table of Contents](./index.html)
+### <&mdash;&mdash; Return to: [Table of Contents](./index.html)
 
+----

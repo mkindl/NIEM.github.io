@@ -160,5 +160,7 @@ Example: ...
 
 ----
 
-## Return to:  [Table of Contents](./index.html)
+### <&mdash;&mdash; Return to: [Table of Contents](./index.html)
+
+----
 

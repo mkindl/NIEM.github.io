@@ -73,6 +73,7 @@ Domain Performance Scorecard           | <http://example.com/>       | [ ENTER U
 
 ----
 
-## Return to:  [Table of Contents](./index.html)
-:w
+### <&mdash;&mdash; Return to: [Table of Contents](./index.html)
+
+----
 

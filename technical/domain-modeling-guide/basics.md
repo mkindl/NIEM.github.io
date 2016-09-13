@@ -54,5 +54,7 @@ A "Reader's Digest" (abridged) version of
 
 ----
 
-## Return to:  [Table of Contents](./index.html)
+### <&mdash;&mdash; Return to:  [Table of Contents](./index.html)
+
+----
 

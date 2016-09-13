@@ -5,7 +5,7 @@ title:  How to map a database, model, dictionary, etc. to NIEM
 Note that this section is NOT meant to be an in-depth treatise on mapping. It is to provide an overview, some guidance, and suggestions for approaching this task. Mapping is usually hard and can be tedious, but it's also necessary for making a legacy system work with NIEM. 
 
 
-## purpose of mapping
+## Purpose of mapping
 
 niem adopters generally do not start without pre-existing data requirements.
 they often begin with existing legacy metadata associated with a database or data model.
@@ -120,5 +120,7 @@ For this reason, sometimes treating a partial match as "no match" (and subsequen
 
 ----
 
-## Return to:  [Table of Contents](./index.html)
+### <&mdash;&mdash; Return to:  [Table of Contents](./index.html)
+
+----
 
