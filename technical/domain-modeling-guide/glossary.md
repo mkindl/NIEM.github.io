@@ -315,22 +315,6 @@ This appendix defines terminology associated with NIEM. The first section define
 
 ----
 
-#### Introduction to Domain Modeling
-
-| [Table of Contents](./index.html) | Description |
-|---|---|
-| [Prologue](./prologue.html) | background, purpose, scope, audience  |
-| [NIEM technical basics](./basics.html) | technical fundamentals of NIEM  |
-| [Design / build NIEM domain content](./content.html)&nbsp;&nbsp;&nbsp; | how to name, define, and structure data components  |
-| [Search for NIEM data components](./search.html) | how to search data components  |
-| [Map to NIEM data components](./map.html) | how to map a database, model, etc. to NIEM  |
-| [Evaluate data component quality](./quality.html) | identifying, designing, defining, and structuring data components  |
-| [Appendix A. Governance](./governance.html) | meetings, roles, communications, online accounts for participation  |
-| [Appendix B. NIEM resources](./resources.html) | URLs to technical resources  |
-| [Appendix C. NIEM glossary](./glossary.html) | definitions for terminology used with NIEM  |
-
-----
-
 ### <&mdash;&mdash; Return to: [Table of Contents](./index.html)
 
 ----
