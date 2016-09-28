@@ -1,5 +1,5 @@
 ---
-title: Appendix B - NIEM resources
+title: Appendix B - Resources
 ---
 
 ## URLs to releases, technical references, tools, templates, and other aids

@@ -1,5 +1,5 @@
 ---
-title:  Design and build initial NIEM domain content
+title:  Design and build domain content
 ---
 
 ## How to name, define, and structure data components
@@ -173,10 +173,10 @@ In accordance with IEC/ISO 11179 Part 5, terms that make up a NIEM data name are
 - Representation term - describes the NIEM data type of this data name.
 - Qualifier term - (optional) describes more specific information applicable to the object, property, or representation term; multiple qualifier terms may be used.
 
-Example: <code>VehicleTrafficControlDeviceCategoryCode</code>
+Example: <code>VehicleTrafficControlDeviceCategoryCode</code> &mdash; A data type for a kind of traffic control device (TCD) applicable to this motor vehicle at the crash location.
 
 - <code>Vehicle</code> = object term
-- <code>Traffic</code>, <code>Control</code>, <code>Device</code> = all qualifier terms modifying Category
+- <code>Traffic</code>, <code>Control</code>, <code>Device</code> = all qualifier terms modifying <code>Category</code>
 - <code>Category</code> = property term
 - <code>Code</code> = representation term
 
@@ -189,11 +189,11 @@ Example: <code>VehicleTrafficControlDeviceCategoryCode</code>
 
 - __Do NOT use double terms__ (i.e., consecutive identical terms such TypeType or NameName) unless such a term has very specific meaning. Double terms should be replaced with a single instance of the term (as long as it does not detract from the real meaning).
 
-- __ID (Identifier) vs. Identification__ &mdash; 
+- __ID (Identifier) vs. Identification__ &mdash; <code>ID</code> and <code>Identification</code> elements are easy to confuse. An <code>ID</code> is a string element that uniquely identifies an entity; so, an <code>ID</code> has simple content. An <code>Identification</code> element is a set of subelements.  For example, an <code>Identification</code> element for a person usually has subelements such as <code>PersonName</code>, <code>PersonHeight</code>, <code>PersonWeight</code>, <code>PersonEyeColor</code>, <code>PersonHairColor</code> <code>IssueDate</code>, <code>ExpirationDate</code>, etc.; so, an <code>Identification</code> element has complex content (i.e., subelements). Usually one or more of its subelements will be <code>ID</code> elements.
 
 - __<code>Text(Type)</code> vs. <code>Name(Type)</code>__ &mdash; In the construction of NIEM element names, <code>Name</code> and <code>Text</code> are authorized representation terms (of type <code>NameType</code> and <code>TextType</code> respecively). The term <code>Name</code> is a word or phrase that constitutes the distinctive designation of and applies to a specific person, place, thing or concept. This is not necessarily an identifier, for example, there are multiple persons with the name "Bob". <code>Text</code> is a word or phrase in some language (usually English). A <NameType> is a special subset of <TextType>.   
 
-- __<code>Date(Type)</code>__ &mdash; 
+- __<code>Date(Type)</code>__ &mdash; The only date and time format supported by W3C XML Schema is a subset of [ISO 8601](https://www.w3.org/TR/xmlschema-2/#isoformats). NIEM uses this for date and time.
 
 - __<code>Indicator(Type)</code>__ &mdash; This term designates NIEM Booleans whose valid values are TRUE or FALSE. Do NOT change these values to YES/NO or 1/0. If required, translation to and from TRUE or FALSE is not difficult.
 
