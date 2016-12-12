@@ -2,23 +2,51 @@
 title:  Appendix C. NIEM glossary
 ---
 
-This appendix defines terminology associated with NIEM. The first section defines common terms that are not formally defined in NIEM specifications. Subsequent sections reference the definitions for terms used in the NIEM specifications. Each list is sorted alphabetically. 
+This appendix defines terminology associated and used with NIEM.
+The first section defines common terms that are not formally defined in NIEM specifications.
+Subsequent sections reference the definitions for terms used in the NIEM specifications.
+Each list is sorted alphabetically.
 
-## Common NIEM terms
 
-- __coordinated domain update__ &mdash; A NIEM [domain update] that is a collaborative effort among multiple (two or more) domains. Simultaneously, each domain releases a new version of (update to) its namespace(s). Together these updates will be [harmonized][harmonization] and [coherent][coherence]. 
-- __data component__ &mdash; An NIEM XML element, attribute, or type.
-- __funneling__ &mdash; Describes a process for subjective reviewing of an intermediate [NIEM release]. Once governance has reviewed, identified, and resolved a subjective modeling issue within an intermediate release, the issue is closed and will not be reopened in a subsequent review during that [release cycle].  Funneling begins at the start of a [beta] release. Note that funneling is only applicable to subjective issues; errors in the model will be corrected at anytime during the [release cycle]. 
-- __intermediate release__ &mdash; An [alpha], [beta], or [release candidate] release (i.e., not an operational release). 
-- __term__ &mdash; A word, acronym, or abbreviation concatenated in upper camel case with other terms to form a NIEM data component name.  For example, the NIEM data component name <code>nc:PersonSSNIdentification</code> consists of three terms: <code>Person</code>, <code>SSN</code> (an acronym for Social Security Number), and <code>Identification</code>.
+## Common terms used by NIEM
+
+- <a name="base_release">__base release__</a> &mdash; A NIEM release to which a [domain update] applies.
+
+- <a name="coordinated_domain_update">__coordinated domain update__</a> &mdash;
+A NIEM [domain update] that is a collaborative effort among multiple (two or more) domains.
+Simultaneously, each domain releases a new version of (update to) its namespace(s).
+Together these updates will be [harmonized][harmonization] and [coherent][coherence].
+
+- <a name="data_component">__data component__</a> &mdash; 
+An NIEM XML element, attribute, or type.
+
+- <a name="funneling">__funneling__</a> &mdash; 
+Describes a process for subjective reviews of an intermediate [NIEM release].
+Once governance has reviewed, identified, and resolved a subjective modeling issue within an intermediate release, the issue is closed and will not be reopened in a subsequent review during that [release cycle].
+Funneling begins at the start of a [beta] release.
+Note that funneling is only applicable to subjective issues; errors in the model will be corrected at anytime during the [release cycle].
+
+- <a name="incremental_domain_update">__incremental domain update__</a> &mdash; A [domain update] that adds and/or modifies (and correspondingly deprecates) data components of a domain schema document.
+
+- <a name="intermediate_release">__intermediate release__</a> &mdash; An [alpha], [beta], or [release candidate] developmental release (i.e., not an operational release).
+
+- <a name="replacement_domain_update">__replacement domain update__</a> &mdash; A [domain update] that changes an entire domain schema document by replacing (and correspondingly deprecating) the entire schema document to which it applies. 
+
+- <a name="targetNamespace">__targetNamespace__</a> &mdash; An XML Schema built-in attribute whose purpose is to indicate what particular [XML namespace] a schema document file describes.
+
+- <a name="term">__term__</a> &mdash; A word, acronym, or abbreviation concatenated in upper camel case with other terms to form a NIEM data component name.
+For example, the NIEM data component name <code>nc:PersonSSNIdentification</code> consists of three terms: <code>Person</code>, <code>SSN</code> (an acronym for Social Security Number), and <code>Identification</code>.
+
+- <a name="xml_namespace">__XML namespace__</a> &mdash; An abstract container and associated identifier that defines the scope for a set of XML element, attribute, and/or type names, each of which is unique within that scope.
+An XML schema document is bound to (1) a specific namespace through a [<code>targetNamespace</code>][targetNamespace] attribute; OR (2) the absence of namespace through the lack of that attribute.
 
 
 ## All terms defined in NIEM specifications ... 
-  Naming and Design Rules 3.0  
-  Conformance Targets Attribute Specification 3.0  
-  Code Lists Specification 1.0  
-  High Level Version Architecture 3.0  
-  Model Package Description Specification 3.0.1  
+&nbsp;&nbsp;  [Naming and Design Rules 3.0](https://reference.niem.gov/niem/specification/naming-and-design-rules/3.0/)  
+&nbsp;&nbsp;  [Conformance Targets Attribute Specification 3.0](https://reference.niem.gov/niem/specification/conformance-targets-attribute/3.0/)   
+&nbsp;&nbsp;  [Code Lists Specification 1.0](https://reference.niem.gov/niem/specification/code-lists/1.0/)  
+&nbsp;&nbsp;  [High Level Version Architecture 3.0](https://reference.niem.gov/niem/specification/high-level-version-architecture/3.0/)  
+&nbsp;&nbsp;  [Model Package Description Specification 3.0.1](https://reference.niem.gov/niem/specification/model-package-description/3.0.1/)  
 
 - [alpha]
 - [appinfo namespace]
@@ -322,6 +350,8 @@ This appendix defines terminology associated with NIEM. The first section define
 
 [cmt]: # (Links to the Definitions in references.  Note: line above must be empty for this comment to be invisible)
 
+[targetNamespace]: ./glossary.html#targetNamespace
+[XML namespace]: ./glossary.html#xml_namespace
 
 [cmt]: # (MPD)
 [XML schema document]: https://reference.niem.gov/niem/specification/model-package-description/3.0.1/model-package-description-3.0.1.html#definition_XML_schema_document
